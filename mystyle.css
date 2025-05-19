@@ -43,11 +43,11 @@ blog {
     background-color: #84C341;
     padding: 30px;
     text-align: center;
-    font-size: 30px;
-    color: #3e3a3a;
-    width: 80%;
-    margin-top: 60px;
-    margin-left: 120px;
+    font-size: 24px;
+    color: #f3f3f3;
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 350px;
     
 }
 
@@ -56,9 +56,10 @@ article {
 }
 
 article img {
-    margin-left: 120px;
-    width: 83.8%;
+    margin-left: 350px;
+    width: 53.8%;
     height: auto;
+    align-items: center;
 }
 
 article a img{
@@ -67,41 +68,46 @@ article a img{
 }
 article h3 {
     float: left;
-    width: 81.3%;
+    width: 51.3%;
     background-color: white;
     color: #3e3a3a;
     padding-right: 20px;
     padding-left: 20px;
     margin: auto;
     margin-top: -20px;
-    margin-left: 120px;
+    margin-left: 350px;
     font-size: 16px;
     line-height: 28px;
 }
 
 article h4 {
     float: left;
-    width: 81.3%;
+    width: 51.3%;
     height: 10px;
     background-color: #8D2B00;
     color: white;
     padding: 20px;
     margin-top: 0px;
-    margin-left: 120px;
+    margin-left: 350px;
     font-size: 12px;
 }
 
 article h5 {
-    width: 80%;
+    width: 50%;
     height: 10px;
     padding-left: 120px;
+    position: relative;
+    bottom: 60px;
 }
 
 table {
-    background: #3e3a3a;
+    background: #8D2B00;
     color: white;
     width: 80%;
     float: right;
+    margin-right: 385px;
+    position: relative;
+    bottom: 95px;
 }
 
 /* header */
